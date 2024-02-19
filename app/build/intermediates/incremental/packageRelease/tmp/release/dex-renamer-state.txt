@@ -1,0 +1,4 @@
+#Sun Feb 18 23:00:14 ECT 2024
+base.0=C\:\\Users\\Intel\\AndroidStudioProjects\\SensoresAndroid\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

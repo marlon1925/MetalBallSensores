@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "975892626004",
+    "firebase_url": "https://geopoli-28101-default-rtdb.firebaseio.com",
+    "project_id": "geopoli-28101",
+    "storage_bucket": "geopoli-28101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975892626004:android:036f012e378a4702accbc1",
+        "android_client_info": {
+          "package_name": "com.example.geopoli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOlMOdnkzyLAgXACabj_lYdolcwTGcbZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975892626004:android:c584c99c016f6fe9accbc1",
+        "android_client_info": {
+          "package_name": "com.geopoli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOlMOdnkzyLAgXACabj_lYdolcwTGcbZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975892626004:android:0aa79c608e47c076accbc1",
+        "android_client_info": {
+          "package_name": "com.projects.enzoftware.metalball"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOlMOdnkzyLAgXACabj_lYdolcwTGcbZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

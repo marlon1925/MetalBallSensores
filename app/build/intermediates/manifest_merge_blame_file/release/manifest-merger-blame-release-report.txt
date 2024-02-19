@@ -1,0 +1,125 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.projects.enzoftware.metalball"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:3:5-66
+11-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:3:22-63
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:5-79
+15-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:23:5-67
+16-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:23:22-64
+17
+18    <application
+18-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:4:5-20:19
+19        android:allowBackup="true"
+19-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:5:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] C:\Users\Intel\.gradle\caches\transforms-3\cce79b0a3ae691e9a9c4c1d47eee416d\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+21        android:exported="true"
+21-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:8:9-32
+22        android:extractNativeLibs="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:6:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:7:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:9:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:10:9-35
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:11:9-40
+28        <activity
+28-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:12:9-19:20
+29            android:name="com.projects.enzoftware.metalball.MetalBall"
+29-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:12:19-44
+30            android:exported="true" >
+30-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:13:13-36
+31            <intent-filter>
+31-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:14:13-18:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:15:17-69
+32-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:15:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:17:17-77
+34-->C:\Users\Intel\AndroidStudioProjects\SensoresAndroid\app\src\main\AndroidManifest.xml:17:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
+39            android:name="com.google.firebase.components.ComponentDiscoveryService"
+39-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:27:13-84
+40            android:directBootAware="true"
+40-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\e242da805e137774204bb8c2afc6e478\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+41            android:exported="false" >
+41-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:28:13-37
+42            <meta-data
+42-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+43                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+43-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+44                android:value="com.google.firebase.components.ComponentRegistrar" />
+44-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+45            <meta-data
+45-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+46                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+46-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Intel\.gradle\caches\transforms-3\839a60c5f084d73cc3f8e2fd4d04807f\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+48            <meta-data
+48-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\6027e8e13c36642525d8eeca3765966a\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+49                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+49-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\6027e8e13c36642525d8eeca3765966a\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\6027e8e13c36642525d8eeca3765966a\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+51            <meta-data
+51-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\e242da805e137774204bb8c2afc6e478\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+52                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+52-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\e242da805e137774204bb8c2afc6e478\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\e242da805e137774204bb8c2afc6e478\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+54        </service>
+55
+56        <provider
+56-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\e242da805e137774204bb8c2afc6e478\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+57            android:name="com.google.firebase.provider.FirebaseInitProvider"
+57-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\e242da805e137774204bb8c2afc6e478\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+58            android:authorities="com.projects.enzoftware.metalball.firebaseinitprovider"
+58-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\e242da805e137774204bb8c2afc6e478\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\e242da805e137774204bb8c2afc6e478\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+60            android:exported="false"
+60-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\e242da805e137774204bb8c2afc6e478\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+61            android:initOrder="100" />
+61-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Intel\.gradle\caches\transforms-3\e242da805e137774204bb8c2afc6e478\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Intel\.gradle\caches\transforms-3\b3db8e05482d1fc5d8d49bd754a17659\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Intel\.gradle\caches\transforms-3\b3db8e05482d1fc5d8d49bd754a17659\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Intel\.gradle\caches\transforms-3\b3db8e05482d1fc5d8d49bd754a17659\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Intel\.gradle\caches\transforms-3\b3db8e05482d1fc5d8d49bd754a17659\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Intel\.gradle\caches\transforms-3\5c430c0a8bcfb9087a719ad0a7d8adc9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Intel\.gradle\caches\transforms-3\5c430c0a8bcfb9087a719ad0a7d8adc9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Intel\.gradle\caches\transforms-3\5c430c0a8bcfb9087a719ad0a7d8adc9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+71    </application>
+72
+73</manifest>
